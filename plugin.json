@@ -1,0 +1,22 @@
+{ 
+	"name": "Typekit",
+	"version": "1.0",
+	"description": "Automatically add custom Typekit fonts to any theme.",
+	"demo": "",
+	"author": {
+		"name": "Ben Hays",
+		"link": "http://benjaminhays.com"
+	},
+
+	"data": {
+		"typekit_id": {
+			"label": "Typekit Embed ID",
+			"info": "You can find your tracking info by logging into Typekit, launching your kit editor, then click embed code at the top.",
+			"type": "string",
+			"validation": {
+				"type": "not_empty",
+				"error_message": "No Typekit embed ID. Try again?"
+			}
+		}
+	}
+}
